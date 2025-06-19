@@ -13,7 +13,7 @@ const Navbar = () => {
         <div className='flex items-center justify-between py-4'>
 
             {/* <div className='flex'> */}
-                <Link className='flex' to='/'><img className='w-28 sm:w-8 lg:w-8' src={assets.logo_icon} alt="" /> <span className='m-2 mb-0'>ImageGen</span></Link>
+                <Link className='flex' to='/'><img className='w-8 sm:w-8 lg:w-8' src={assets.logo_icon} alt="" /> <span className='m-2 mb-0'>ImageGen</span></Link>
             {/* </div> */}
 
             <div>
