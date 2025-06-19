@@ -1,17 +1,13 @@
 import React from 'react'
 import { stepsData } from '../assets/assets'
-import { motion } from 'framer-motion'
 
 const Steps = () => {
 
 
   return (
-    <motion.div
+    <div
       className="flex flex-col items-center justify-center my-32"
-      initial={{ opacity: 0.2, y: 100 }}
-      transition={{ duration: 1 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true }}
+    
     >
 
 
@@ -24,7 +20,7 @@ const Steps = () => {
 
       <div className="space-y-4 w-full max-w-3xl text-sm" >
         {stepsData.map((item, index) => (
-          <div key={index} className="flex items-center gap-4 p-5 px-8 bg-white/20 rounded-lg shadow-md border cursor-pointer hover:scale-[1.02] transition-all duration-300" >
+          <div key={index} className="flex items-center gap-4 p-5 px-8 bg-black rounded-lg shadow-md border cursor-pointer hover:scale-[1.02] transition-all duration-300" >
             <img width={40} src={item.icon} alt="" />
             <div>
               <h2 className="text-xl font-medium">{item.title}</h2>
@@ -35,7 +31,7 @@ const Steps = () => {
           </div>
         ))}
       </div>
-    </motion.div>
+    </div>
   )
 }
 
