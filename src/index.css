@@ -8,14 +8,14 @@
   font-family:'Courier New', Courier, monospace
   /* font-family: Outfit; */
 }
-.home{
-    background-image: url("/valo_bg.jpg");
+/* .home{ */
+    /* background-image: url("/valo_bg.jpg"); */
     /* background-position: center; */
     /* background-repeat: no-repeat; */
-    background-position: top;
-    background-size: cover;
+    /* background-position: top; */
+    /* background-size: cover; */
     /* background-position: fit; */
-}
+/* } */
 
 .grey-placeholder::placeholder{
   color: #e0e0e0;
